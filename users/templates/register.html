@@ -1,0 +1,16 @@
+{% extends './layouts/bases.html' %}
+
+{% block content %}
+
+<h3>Register</h3>
+
+<form action="" method="post">
+    <p>{{ valid }}</p>
+    
+    {% csrf_token %}
+    {{ form }}
+    <button class="form-button">Enviar</button>
+
+</form>
+
+{% endblock %}

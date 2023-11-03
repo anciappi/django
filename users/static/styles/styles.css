@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 62.5%;
+    background-color: #222;
+}
+
+body{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+h3{
+    font-size: 2rem;
+    color: blanchedalmond;
+}
+
+/* Nav bar */
+
+.main-nav{
+    width: 100vw;
+    background-color: black;
+}
+
+.main-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.main-nav li{
+    display: flex;
+    list-style: none;
+    padding: 2rem;
+}
+
+.main-nav li:hover{
+    background-color:cadetblue;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+
+/* Form Register */
+
+#usuario-ok p {
+    color: #95ce3f ;
+}
+
+form{
+    padding: 2rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5rem;
+
+}
+
+input{
+    padding: 2rem;
+    height: 4rem;
+    background-color:#181818;
+    color: antiquewhite;
+    border: 0;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+button{
+    margin-top: 2rem;
+    background-color:cadetblue;
+    height: 3rem;
+    border: 0;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
